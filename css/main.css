@@ -1,0 +1,22 @@
+/*-----general css-------*/
+body {padding-top: 100px;background:#fbfcfd;}
+h1{font-size:30px;}
+h2{font-size:24px;}
+a, p{color:#b5bdc6;}
+label{font-size: 10px}
+input, select, textarea{border-color:#d6dbe0;}
+.btn-primary{background:#10c5ff;border:1px solid #63d7fc;}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary{background:#63d7fc;border:1px solid #10c5ff;}
+.glyphicon{color:#b5bdc6; }
+/*-----header css-------*/
+.navbar-default {background-color: #fff;border-color: #fff;padding-top:10px}
+.navbar-default .navbar-brand{padding:5px;margin: 0;}
+.navbar-default .navbar-nav>li>a{color:#b5bdc6;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{background: #fff;color:#b5bdc6;font-weight:bold;}
+.form-control-nav{border:1px solid #fff;padding:5px;border:none;}
+.search-block .navbar-form{border-right:1px solid #b5bdc6;margin:8px;padding: 0 10px;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{color:#10c5ff;font-weight: normal;padding:10px 30px;font-size: 12px; margin-top:5px;border:1px solid #10c5ff;border-radius:5px;}
+/*----- authentication and form css-------*/
+.form-signin-header{padding:10px 0;border-bottom:1px solid #d6dbe0;margin:20px 0;font-weight: normal;}
+.form-signin .text-right{float:right;color:#10c5ff;}
+.form-group.confirm a{color:#10c5ff;margin:0 5px;}
