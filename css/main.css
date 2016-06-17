@@ -1,8 +1,9 @@
 /*-----general css-------*/
-body {padding-top: 100px;background:#fbfcfd;}
+body {padding-top: 80px;background:#fbfcfd;}
 h1{font-size:30px;}
 h2{font-size:24px;}
 a, p{color:#b5bdc6;}
+a:hover{text-decoration: none;cursor: pointer;}
 label{font-size: 10px}
 input, select, textarea{border-color:#d6dbe0;}
 .btn-primary{background:#10c5ff;border:1px solid #63d7fc;}
@@ -20,3 +21,13 @@ input, select, textarea{border-color:#d6dbe0;}
 .form-signin-header{padding:10px 0;border-bottom:1px solid #d6dbe0;margin:20px 0;font-weight: normal;}
 .form-signin .text-right{float:right;color:#10c5ff;}
 .form-group.confirm a{color:#10c5ff;margin:0 5px;}
+
+.account-tybe{position:relative;height:auto;width:auto;margin:10px auto}
+.account-tybe .projects, .account-tybe .contests{text-align: center;min-height: 200px; height: inherit;background: #fff;border:1px solid #d6dbe0;}
+.account-tybe .projects img, .account-tybe .contests img{margin:40px auto 20px auto;}
+.account-tybe .projects{border-radius: 5px 0px 0px 5px;border-right:none;}
+.account-tybe .projects.active, .account-tybe .contests.active{background:#10c5ff; }
+.account-tybe .projects.active p, .account-tybe .contests.active p{color:#fff}
+.account-tybe .contests{border-radius: 0px 5px 5px 0px;border-left:none;}
+.account-tybe .divider{position:absolute;background:#fff;border:1px solid #d6dbe0;margin:auto;left:0;right:0;width:50px;
+z-index: 2;padding:5px;text-align: center;top:0;bottom: 0;height:30px}
