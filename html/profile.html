@@ -9,11 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bare - Start Bootstrap Template</title>
+    <title>Profile</title>
 
     <!-- Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/mobile.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -46,37 +48,76 @@
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
-						<li class="search-block">					
-							<form class="navbar-form navbar-right">
-								<input type="text" class="form-control-nav" placeholder="">
-								<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-							</form>
-						</li>
-            <li><a href="javascript:void(0)">Already have an account?</a></li>
-            <li class="active login-btn"><a href="javascript:void(0)">LOG IN</a></li>
+            <li class="login-btn"><a href="javascript:void(0)">LOG IN</a></li>
+            <li class="active login-btn"><a href="javascript:void(0)">SIGN UP</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
     <!-- Page Content -->
+	<div class="user-profile">
     <div class="container">
 			<div class="row">
-				<div class="user-profile col-md-6">
+				<div class="col-md-8 col-sm-8 col-xs-12">
 					<div class="row">
 						<div class="row user-info">
-							<div class="col-md-2"><img src="..." alt="..." class="img-circle"></div>
-							<div class="col-md-2"></div>
+							<div class="col-md-4 col-sm-4">
+								<img src="../img/dummy/user.png" alt="user pic" class="img-circle">
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<h2><span>Melyessa Bri</span><label class="text-uppercase">JUDGE</label></h2>
+								<p><i class="glyphicon glyphicon-map-marker"></i><span>London, United kingdom</span><a href="javascript:void(0)" class="btn btn-default edit"><span class="glyphicon glyphicon-pencil"></span></a></p>
+							</div>
+						</div>
+						<div class="row user-details">
+							<div class="col-md-2 col-sm-4 col-xs-4"><strong>32</strong><p class="text-uppercase">Comments</p></div>
+							<div class="col-md-2 col-sm-4 col-xs-4"><strong>6</strong><p class="text-uppercase">Submissions</p></div>
+							<div class="col-md-2 col-sm-4 col-xs-4"><strong>3</strong><p class="text-uppercase">Entries</p></div>
+							<div class="col-md-2 col-sm-4 col-xs-4"><strong>162</strong><p class="text-uppercase">Following</p></div>
+							<div class="col-md-2 col-sm-4 col-xs-4"><strong>2</strong><p class="text-uppercase">Gudging</p></div>
+							<div class="col-md-2 col-sm-4 col-xs-4"><strong>1</strong><p class="text-uppercase">Orgnization</p></div>
+						</div>
+						<div class=" row user-desc">
+							<div class="col-md-12"><h2>Founder and Writer at Micro Picture</h2><a href="javascript:void(0)" class="btn btn-default"><i class="glyphicon glyphicon-pencil"></i></a></div>
+							<div class="col-md-12"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dignissim massa nec massa sagittis, cursus imperdiet neque ullamcorper. Fusce quis odio lacus. Quisque dapibus ante ac velit tristique, at vestibulum ipsum placerat. Donec quis eros non risus tincidunt lobortis. Aliquam ornare pretium ullamcorper. Vivamus interdum leo eget hendrerit sodales. Quisque ac sollicitudin sem. Mauris dignissim ullamcorper nibh sit amet eleifend. Mauris viverra magna ligula, eget consequat massa mattis eget. Fusce mattis pharetra urna quis aliquam. Integer eu neque libero. Sed aliquam, nibh eget aliquam consequat, massa risus sodales velit, at volutpat purus ante quis lorem. Pellentesque imperdiet urna rutrum urna tempor molestie. Cras nunc tellus, faucibus in placerat at, condimentum ut ipsum.</p></div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
-				
-				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12 user-prof-side-bar">
+					<div class="row">
+						<div class=" col-md-8 col-md-offset-4 col-sm-10 side-bar-wrapper">
+							<a href="javascript:void(0)" class="btn btn-default edit"><span class="glyphicon glyphicon-pencil"></span></a>
+							<h4>Details</h4>
+							<div class="side-bar-box">
+								<h5 class="text-uppercase">Contact Details</h5>
+								<p><i class="fa fa-phone"></i><a href="javascript:void(0)">997,445.6578</a>*</p>
+								<p><i class="fa fa-at"></i><a href="javascript:void(0)">peter.m.smith@gmail.com</a></p>
+								<p><i class="fa fa-globe"></i><a href="javascript:void(0)">peter.m.smith@gmail.com</a></p>
+							</div><!-- /side-bar-box -->
+							<div class="side-bar-box">
+								<h5 class="text-uppercase">Birth date</h5>
+								<p>2/3/2016*</p>
+							</div><!-- /side-bar-box -->
+							<div class="side-bar-box">
+								<h5 class="text-uppercase">ADDRESS</h5>
+								<p>Lorem ipsum dolor sit amet.*</p>
+							</div><!-- /side-bar-box -->
+							<div class="side-bar-box">
+								<h5 class="text-uppercase">Social</h5>
+								<p><i class="fa fa-twitter"></i><a href="javascript:void(0)">@melyssabri</a></p>
+								<p><i class="fa fa-facebook"></i><a href="javascript:void(0)">facebook/melssa.bri</a></p>
+								<p><i class="fa fa-linkedin"></i><a href="javascript:void(0)">linkedin.com/maylssa</a></p>
+								<p><i class="fa fa-imdb"></i><a href="javascript:void(0)">facebook/melssa.bri</a></p>
+								<p><i class="fa fa-globe"></i><a href="javascript:void(0)">slug(vanity URL)</a></p>
+							</div><!-- /side-bar-box -->
+						</div><!-- /side-bar-wrapper -->
+					</div>
+				</div><!-- /user-prof-side-bar -->
 			</div>
+		
 		</div> <!-- /container -->
-
-    <!-- /.container -->
+	</div><!-- /user profile -->
 
     <!-- jQuery Version 1.11.1 -->
     <script src="../js/jquery.js"></script>

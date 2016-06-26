@@ -2,9 +2,11 @@
 body {padding-top: 80px;background:#fbfcfd;}
 h1{font-size:30px;}
 h2{font-size:24px;}
-a, p{color:#b5bdc6;}
-a:hover{text-decoration: none;cursor: pointer;}
+a{color:#10c5ff;}
+a:hover{color:#10c5ff;}
+p{color:#b5bdc6;}
 label{font-size: 10px}
+.fa{color:#666;}
 input, select, textarea{border-color:#d6dbe0;}
 .btn-primary{background:#10c5ff;border:1px solid #63d7fc;}
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary{background:#63d7fc;border:1px solid #10c5ff;}
@@ -12,7 +14,7 @@ input, select, textarea{border-color:#d6dbe0;}
 /*-----header css-------*/
 .navbar-default {background-color: #fff;border-color: #fff;padding-top:10px}
 .navbar-default .navbar-brand{padding:5px;margin: 0;}
-.navbar-default .navbar-nav>li>a{color:#b5bdc6;}
+.navbar-default .navbar-nav>li>a{color:#b5bdc6;font-size: 12px;line-height: 26px;}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{background: #fff;color:#b5bdc6;font-weight:bold;}
 .form-control-nav{border:1px solid #fff;padding:5px;border:none;}
 .search-block .navbar-form{border-right:1px solid #b5bdc6;margin:8px;padding: 0 10px;}
@@ -31,3 +33,10 @@ input, select, textarea{border-color:#d6dbe0;}
 .account-tybe .contests{border-radius: 0px 5px 5px 0px;border-left:none;}
 .account-tybe .divider{position:absolute;background:#fff;border:1px solid #d6dbe0;margin:auto;left:0;right:0;width:50px;
 z-index: 2;padding:5px;text-align: center;top:0;bottom: 0;height:30px}
+
+/*-----user Profile css-------*/
+.user-profile{padding:20px;}
+.user-profile .user-details>div{text-align:center;}
+.user-profile .user-details>div strong{font-size: 30px;font-weight: normal;}
+.user-profile .side-bar-wrapper{border:1px solid #999;border-radius: 5px;}
+.user-profile .side-bar-wrapper i{margin-right:10px}
